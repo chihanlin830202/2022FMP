@@ -10,8 +10,8 @@
     "lint": "next lint"
   },
   "engines": {
-    "node": "18.4.0",
-    "npm":"8.12.1"
+    "node": "18.7.0",
+    "npm": "8.15.0"
   },
   "author": "MG",
   "license": "MIT",
@@ -35,8 +35,11 @@
     "react-lazy-load-image-component": "^1.5.1"
   },
   "devDependencies": {
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.4",
     "regenerator-runtime": "^0.13.9"
   },
-  "cacheDirectories": 
-  ["frontend/.next/cache"]
+  "cacheDirectories": [
+    "frontend/.next/cache"
+  ]
 }
